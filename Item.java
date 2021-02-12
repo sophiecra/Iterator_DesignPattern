@@ -36,7 +36,7 @@ public class Item {
     }
 
     /**
-     * Prints out the information
+     * Prints out the information of the item 
      */
     public void print() {
         System.out.println(this.toString());
