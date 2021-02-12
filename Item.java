@@ -11,7 +11,7 @@ public class Item {
     }
 
     public String toString() {
-        return "Title: " + title + "\nDescription: " + description + "\nPrice: " + price + "\n";
+        return "Title: " + title + "\n" + description + "\nPrice: $" + price + "\n";
     }
 
     public double getPrice() {
