@@ -2,7 +2,7 @@
  * An iterator that iterates through the Wish List
  * @author Sophie Crane
  */
-public class WishListIterator {
+public class WishListIterator implements Iterator {
     private Item[] items;
     private int position = 0;
 
